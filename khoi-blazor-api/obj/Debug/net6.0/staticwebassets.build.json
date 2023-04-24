@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HAXZk1aZQ1qtnGURlDLTUfvGpiX66+ToVrGh0jJp/4k=",
+  "Source": "khoi-blazor-api",
+  "BasePath": "_content/khoi-blazor-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

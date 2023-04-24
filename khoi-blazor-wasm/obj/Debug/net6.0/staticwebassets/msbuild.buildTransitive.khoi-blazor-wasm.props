@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\khoi-blazor-wasm.props" />
+</Project>

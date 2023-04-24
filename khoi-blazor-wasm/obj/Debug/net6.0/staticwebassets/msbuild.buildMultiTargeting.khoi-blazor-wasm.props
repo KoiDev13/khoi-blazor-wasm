@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\khoi-blazor-wasm.props" />
+</Project>
