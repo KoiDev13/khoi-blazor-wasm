@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using khoi_blazor_api.Data;
 
@@ -11,9 +12,11 @@ using khoi_blazor_api.Data;
 namespace khoi_blazor_api.Migrations
 {
     [DbContext(typeof(TodoListDBContext))]
-    partial class TodoListDBContextModelSnapshot : ModelSnapshot
+    [Migration("20230426031613_IdentityCore")]
+    partial class IdentityCore
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

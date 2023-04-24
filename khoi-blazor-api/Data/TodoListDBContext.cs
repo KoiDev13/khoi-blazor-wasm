@@ -1,9 +1,11 @@
 ﻿using khoi_blazor_api.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
 
 namespace khoi_blazor_api.Data
 {
-    public class TodoListDBContext : DbContext
+    public class TodoListDBContext : IdentityDbContext<User, Role, Guid>
     {
         public TodoListDBContext(DbContextOptions<TodoListDBContext> options) : base(options)
         { 

@@ -1,0 +1,6 @@
+﻿INSTANCE NAME:	MSSQLSERVER
+SQL ADMINISTRATORS: KOIDEV13TH-HOME\Khoi Nguyen
+CONNECTION STRING: Server=localhost;Database=master;Trusted_Connection=True;
+SQL SERVER INSTALL LOG FOLDER: C:\Program Files\Microsoft SQL Server\160\Setup Bootstrap\Log\20230426_101959
+INSTALLATION MEDIA FOLDER: C:\SQL2022\Developer_ENU
+INSTALLATION RESOUCE FOLDER: C:\Program Files\Microsoft SQL Server\160\SSEI\Resources
